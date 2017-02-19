@@ -1,7 +1,7 @@
 # rafale_mode
 CA UIM Rafale_mode for NAS (actually used in production)
 
-CA UIM Rafale_mode for alarms that end by this kind of pattern :
+**Alarm message pattern required**
 
 ```
 Alarm message [interval in second][numbers of occurence][severity]
@@ -15,6 +15,6 @@ Alarm message [300][60][3]
 
 > 300 because 5 minutes equal 300 seconds.
 
-And now you get your alarm at the right time and with the right condition.
+And now you get your alarm at the right time and with the right condition (without rafale).
 
 > **Warning** This script is not ok for a big CA UIM infrastructure (Like 60msg /s and more). This will slow down to much the NAS.
